@@ -1,10 +1,11 @@
-# EchoServer
-***
+# Echo Server Side
+In the second part, we created the server-side using ASP.NET technology and developed a RESTful API for our messenger.
+
 ## Instructions:
-* After cloning repos on your computer, check that you install packages of _Entity Framework Core, Entity Framework Tools, JwtBearer_
-* We used Sql DB for Feedback APP and Static DB for API. 
-So, in ContextData.cs in 'Repository' folder you can find static DB that we created with some users that already exist. So, if you make changes of url of server, make sure you changed url in ContextData.cs of users. (now it's localhost:7099)
-* You need to run simultaneously 'EchoAPI' and 'WebAplication3' (it's app of feedbacks) to use react app (more you will find in README of Echo React repos)
-***
-Enjoy Echo Messenger and don't forget to give us your feedback :nerd_face:
-![2022-05-26 (4)](https://user-images.githubusercontent.com/92333588/170557169-6592efe0-26b5-4595-b90b-8dd48d892ce6.png)
+1. After cloning the repository on your computer, make sure you install the following packages: Entity Framework Core, Entity Framework Tools, JwtBearer.
+
+2. We used a SQL database for the Feedback APP and a static database for the API. In the ContextData.cs file located in the Repository folder, you can find the static database that we created, which contains some pre-existing users. If you make changes to the server's URL, make sure to also change the URL in the ContextData.cs file for the users (currently set to localhost:7099).
+
+3. To use the React app, you need to simultaneously run both the 'EchoAPI' and 'WebAplication3' (the feedbacks app) applications. You can find more information in the README of the Echo React repository.
+
+
