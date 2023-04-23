@@ -1,5 +1,7 @@
 # Echo Server Side
-In the second part, we created the server-side using ASP.NET technology and developed a RESTful API for our messenger.
+In the second part, we created the server-side of our messenger using ASP.NET technology and developed a RESTful API. We worked with models and controllers to manage the API and added services and repositories to make our project scalable and maintain encapsulation.
+
+We used a database to store information about our users and implemented jwt-tokens to allow users to stay logged in to our app for a certain amount of time. Additionally, we utilized Microsoft's SignalR technology to enable real-time communication within our app
 
 ## Instructions:
 1. After cloning the repository on your computer, make sure you install the following packages: Entity Framework Core, Entity Framework Tools, JwtBearer.
